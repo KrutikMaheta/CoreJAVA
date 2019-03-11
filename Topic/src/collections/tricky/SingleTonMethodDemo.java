@@ -1,4 +1,4 @@
-package collections;
+package collections.tricky;
 
 import java.util.ArrayList;
 import java.util.Arrays;

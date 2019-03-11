@@ -1,4 +1,4 @@
-package collections;
+package collections.demos;
 
 import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;

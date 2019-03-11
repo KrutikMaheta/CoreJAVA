@@ -1,6 +1,6 @@
 // Creating simple phonebook using properties class 
 
-package collections;
+package collections.demos;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
