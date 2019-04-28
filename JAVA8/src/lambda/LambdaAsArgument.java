@@ -1,5 +1,6 @@
 package lambda;
 
+@FunctionalInterface
 interface StringFunc{
 	String operation(String str);
 }

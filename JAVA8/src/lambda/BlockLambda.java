@@ -1,5 +1,6 @@
 package lambda;
 
+@FunctionalInterface
 interface MyFactorial{
 	int factorial(int n);
 }

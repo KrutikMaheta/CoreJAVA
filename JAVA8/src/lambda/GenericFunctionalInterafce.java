@@ -1,17 +1,18 @@
 package lambda;
 
-interface genericInterface<T> {
+@FunctionalInterface
+interface GenericInterface<T> {
 	T operation(T t);
 }
 public class GenericFunctionalInterafce {
 	public static void main(String[] args) {
-		genericInterface<String> strRev = (str) -> {
+		GenericInterface<String> strRev = (str) -> {
 			String result = "";
 			for (int i = str.length() - 1; i >= 0; i--)
 				result += str.charAt(i);
 			return result;
 		};
-		genericInterface<Integer> factorial = (n) -> {
+		GenericInterface<Integer> factorial = (n) -> {
 			Integer fact = 1;
 			for(int i=1 ; i<=n; i++)
 				fact *= i;

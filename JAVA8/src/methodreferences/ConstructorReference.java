@@ -12,6 +12,7 @@
 
 package methodreferences;
 
+
 interface MyConstructorInterface {
 	MyDemoClass getClassObj(int val);
 }

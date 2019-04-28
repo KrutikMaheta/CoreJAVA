@@ -2,6 +2,7 @@
 
 package lambda;
 
+@FunctionalInterface
 interface StringFunction {
 	String stringReverse(String str);
 }

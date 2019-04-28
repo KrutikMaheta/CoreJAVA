@@ -7,6 +7,7 @@ package lambda;
  	Note: the parameter to the lambda expression is simply n, rather than n[ ]. 
  	Remember, the type of a lambda expression parameter will be inferred from the target context.
 */
+@FunctionalInterface
 interface ArrayAverage  {
 	double avg(int[] arr) throws EmptyArrayException;
 }

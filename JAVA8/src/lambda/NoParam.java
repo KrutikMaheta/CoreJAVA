@@ -1,6 +1,7 @@
 package lambda;
 
 // functional interface : Having only one abstract method
+@FunctionalInterface
 interface MyMath{
 	double getVal();
 }
