@@ -33,10 +33,10 @@ class Q {
 	}
 }
 
-class Consumer implements Runnable {
+class Consumer3 implements Runnable {
 	Q q;
 
-	Consumer(Q q) {
+	Consumer3(Q q) {
 		this.q = q;
 		new Thread(this, "Cons").start();
 	}
@@ -53,11 +53,11 @@ class Consumer implements Runnable {
 
 }
 
-class Producer implements Runnable {
+class Producer3 implements Runnable {
 
 	Q q;
 
-	public Producer(Q q) {
+	public Producer3(Q q) {
 		this.q = q;
 		new Thread(this, "Prod").start();
 	}
@@ -79,7 +79,7 @@ public class SemaphoreDemo {
 
 	public static void main(String[] args) {
 		Q q = new Q();
-		new Producer(q);
-		new Consumer(q);
+		new Producer3(q);
+		new Consumer3(q);
 	}
 }
