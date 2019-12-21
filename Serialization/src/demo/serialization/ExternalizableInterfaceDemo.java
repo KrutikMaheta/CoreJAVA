@@ -1,6 +1,7 @@
 /**
- * Java serialization process, it’s done automatically. Sometimes we want to obscure the object data to maintain it’s integrity. 
- * We can do this by implementing java.io.Externalizable interface and provide implementation of writeExternal() and readExternal() methods 
+ * Java serialization process, it’s done automatically. Sometimes we want to obscure the object 
+ * data to maintain it’s integrity. We can do this by implementing java.io.Externalizable 
+ * interface and provide implementation of writeExternal() and readExternal() methods 
  * to be used in serialization process.
  */
 
